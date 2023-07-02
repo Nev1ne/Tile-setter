@@ -16,11 +16,11 @@ li {
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #0c0b0b;
     font-size: 1rem;
 }
 a:hover {
-    color: violet;
+    color: rgb(212, 49, 76);
 }
 
 /* HEADER */
@@ -63,7 +63,7 @@ header {
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2 gease;
+    transition: scale 0.2 ease;
 }
 
 .action_btn:hover{
@@ -72,4 +72,28 @@ header {
 }
 .action_btn:active{
     scale: 0.95;
+}
+
+/*  DROPDOWN MENU  */
+
+.dropdown_menu{
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+}
+
+/*  RESPONSIVE DESIGN  */
+
+@media (max-width: 992px) {
+     .navbar .links,
+     .navbar .action_btn {
+        display: none;
+     }
+
+     .navbar .toggle_btn {
+        display: block;
+     }
 }
