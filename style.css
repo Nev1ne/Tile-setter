@@ -118,7 +118,8 @@ section#hero{
     color: #fff;
 }
 #hero h1{
-    
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 /*  RESPONSIVE DESIGN  */
