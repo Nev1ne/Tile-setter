@@ -16,11 +16,11 @@ li {
 }
 a{
     text-decoration: none;
-    color: #7df359;
+    color: #59bbf3;
     font-size: 1.2rem;
 }
 a:hover {
-    color: rgb(233, 77, 50);
+    color: rgb(50, 53, 233);
 }
 
 /* HEADER */
@@ -54,7 +54,7 @@ header {
     display: none;
 }
 .action_btn{
-    background-color: rgb(31, 185, 10);
+    background-color: rgb(14, 180, 202);
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -115,16 +115,18 @@ section#hero{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fcfbf5;
+    color: #f5f8fc;
 }
 #hero h1{
     font-family: 'Caveat' , cursive;
     font-style: italic;
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: #59bbf3;
 }
 #hero p{
     font-size: 1.5rem;
+    color: rgb(14, 180, 202);
 }
 
 /*  RESPONSIVE DESIGN  */
